@@ -1,0 +1,29 @@
+{
+  "full_score_table": {
+    "source": "03_results/screening/merged_scores_sp_id.csv",
+    "sha256": "fc2da83911a6dfa79a4ae90e68bdc575b57b46b789b8c343a10d1802b4feca77",
+    "rows": 152867,
+    "counts": {
+      "DB9_results": 11979,
+      "DRAMP_results": 12788,
+      "cosmetics": 3,
+      "uniprot_results": 128097
+    }
+  },
+  "sample": {
+    "method": "first up to 10 rows per Root, preserving source row order and numeric text",
+    "rows": 33
+  },
+  "preserved_scripts": [
+    {
+      "release": "scripts/generate_dock_commands.py",
+      "source": "05_provenance/HDOCK/generate_dock_commands.py",
+      "sha256": "48a459c51b1c6315d6e7470b4d5ce0cf00ea45d24859817f5823e40a3466dd26"
+    },
+    {
+      "release": "scripts/score_analysis_original.py",
+      "source": "03_results/screening/scripts.py",
+      "sha256": "863e873439812f74fc7693647a24bb6c838a1cb8245c907d4ed7446624136a25"
+    }
+  ]
+}

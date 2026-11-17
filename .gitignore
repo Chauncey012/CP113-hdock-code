@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+results/
+docking/
+inputs/
+ligands/
+*.log
+*_jobs.sh
