@@ -58,5 +58,3 @@ contains identifiers, not amino-acid sequences. The original analysis module is
 preserved for traceability; use the supplied entry point, which only calls its
 score-related functions. Its legacy sequence/heatmap routines are not validated
 for this schema and are not part of the release workflow.
-
-No public dataset DOI or completed GitHub publication is asserted by this package.
